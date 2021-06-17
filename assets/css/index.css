@@ -1,0 +1,17 @@
+.utterances {
+    max-width: 100%;
+  }
+
+.card {
+    min-height: 200px;
+    min-width: 400px;
+}
+
+.repo-title {
+    color: #29b6f6;
+}
+
+
+svg:hover {
+    fill: #03a87c;
+}

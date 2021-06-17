@@ -1,0 +1,27 @@
+---
+title: "Mani"
+layout: default
+permalink: "/author-mani.html"
+---
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.mani.twitter }}">Follow</a></span></h2>
+                <p><a class="text-dark ml-1" target="_blank" href="https://github.com/infinyte7"><i class="fab fa-github"></i> GitHub</a></p>
+                <p><a href="{{ site.authors.mani.site }}">{{ site.authors.mani.site }}</a></p>
+                <p class="excerpt">{{ site.authors.mani.bio }}</p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="{{ site.authors.mani.name }}" src="{{site.baseurl}}/{{ site.authors.mani.avatar }}" class="rounded-circle" height="100" width="100">
+            </div>
+        </div>
+        <!--<h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+            {% assign posts = site.posts | where:"author","mani" %}
+            {% for post in posts %}
+            {% include main-loop-card.html %}
+            {% endfor %}-->
+    </div>
+</div>
+</div>

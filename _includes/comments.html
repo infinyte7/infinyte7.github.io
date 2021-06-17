@@ -1,0 +1,17 @@
+<br><br>
+<h3>Comments</h3>
+<hr>
+{% assign provider = site.comments.provider | default:"utterances" %}
+{% if provider == "utterances" %}
+  {% assign utterances = site.utterances %}
+  {% if utterances.repo %}
+    <script src="https://utteranc.es/client.js"
+            repo=        {{ utterances.repo }}
+            issue-term=  {{ utterances.issue-term }}
+            label=       {{ utterances.label }}
+            theme=       {{ utterances.theme }}
+            crossorigin= "anonymous"
+            async>
+    </script>
+  {% endif %}
+{% endif %}

@@ -1,1 +1,65 @@
-theme: jekyll-theme-architect
+# Site
+name: 'Mani'
+description: 'My personal blog for my projects and ideas'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+email: 'infinyte01@gmail.com'
+
+include: ["_pages"]
+permalink: /:title/
+
+# comments
+comments:
+  provider: utterances
+
+utterances:
+  repo:                "infinyte7/infinyte7.github.io"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "github-light"
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    mani:
+      name:           Mani
+      site:           https://infinyte7.github.io
+      avatar:         assets/images/avatar1.png
+      bio:            "Hi, I am Mani, the author of this blog."
+      email:          infinyte01@gmail.com
+      twitter:        https://twitter.com/infinyte01
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: mani
+      avatar: assets/images/avatar1.png
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
