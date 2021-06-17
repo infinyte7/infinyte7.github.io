@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my blog!"
 categories: [ blog ]
-image: assets/images/welcome.jpg
+image: assets/images/keyboard-unsplash.jpg
 ---
 <br>
 Hi,<br>
