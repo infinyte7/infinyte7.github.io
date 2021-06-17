@@ -3,7 +3,7 @@ layout: post
 title:  "Anki-xiehanzi - Learn to read and write Mandarin"
 author: mani
 categories: [ projects, blog ]
-image: assets/images/anki_xiehanzi.png
+image: assets/images/anki_xiehanzi.jpg
 tags: [sticky]
 ---
 
