@@ -15,3 +15,7 @@
 svg:hover {
     fill: #03a87c;
 }
+
+img {
+    text-align: center;
+}
